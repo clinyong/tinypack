@@ -5,5 +5,5 @@ const options = {
     context: './test'
 };
 
-const result = buildModules('a.js', options);
+const result = buildModules('index.js', options);
 write(result);
